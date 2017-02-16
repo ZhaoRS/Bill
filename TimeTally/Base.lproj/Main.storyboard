@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FnI-hu-Z4g">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE2-4N-ucX">
+                                <rect key="frame" x="147" y="64" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="BCO-16-14Z"/>
+                                    <constraint firstAttribute="height" constant="80" id="Qm4-Nt-JFr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="增加"/>
+                                <connections>
+                                    <action selector="clickAddTally:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8qA-1r-EjT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRJ-SY-UbC">
+                                <rect key="frame" x="20" y="64" width="117" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="p7p-Fy-dYD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收入总计" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbD-5u-ixs">
+                                <rect key="frame" x="20" y="104" width="117" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="d0h-lQ-dly"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支出" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEE-Hn-PaU">
+                                <rect key="frame" x="237" y="64" width="102" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UvX-sU-EtK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支出总计" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpW-U1-XjB">
+                                <rect key="frame" x="237" y="104" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="s9q-cd-Mpx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FpW-U1-XjB" secondAttribute="trailing" constant="20" id="2BM-8t-wHx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mEE-Hn-PaU" secondAttribute="trailing" constant="20" id="5ol-ma-qeq"/>
+                            <constraint firstItem="FpW-U1-XjB" firstAttribute="leading" secondItem="aE2-4N-ucX" secondAttribute="trailing" constant="10" id="AEg-rq-Gzc"/>
+                            <constraint firstItem="SRJ-SY-UbC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="C5I-nK-GNE"/>
+                            <constraint firstItem="mEE-Hn-PaU" firstAttribute="leading" secondItem="aE2-4N-ucX" secondAttribute="trailing" constant="10" id="CHg-8a-4Gs"/>
+                            <constraint firstItem="mEE-Hn-PaU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QYt-fi-NLh"/>
+                            <constraint firstItem="aE2-4N-ucX" firstAttribute="leading" secondItem="SRJ-SY-UbC" secondAttribute="trailing" constant="10" id="VV7-9K-RNs"/>
+                            <constraint firstItem="qbD-5u-ixs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Vpy-Lc-Kkr"/>
+                            <constraint firstItem="SRJ-SY-UbC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Y9E-Ha-s60"/>
+                            <constraint firstItem="aE2-4N-ucX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z2D-bG-y3k"/>
+                            <constraint firstItem="qbD-5u-ixs" firstAttribute="top" secondItem="SRJ-SY-UbC" secondAttribute="bottom" constant="10" id="gJY-q0-RoU"/>
+                            <constraint firstItem="aE2-4N-ucX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iVw-5T-dwq"/>
+                            <constraint firstItem="FpW-U1-XjB" firstAttribute="top" secondItem="mEE-Hn-PaU" secondAttribute="bottom" constant="10" id="kyt-7T-mbB"/>
+                            <constraint firstItem="aE2-4N-ucX" firstAttribute="leading" secondItem="qbD-5u-ixs" secondAttribute="trailing" constant="10" id="tKU-Fp-nKr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmg-gU-M6D"/>
+                    <connections>
+                        <outlet property="expenseLab" destination="mEE-Hn-PaU" id="dBN-00-tn0"/>
+                        <outlet property="incomLab" destination="SRJ-SY-UbC" id="SMc-Nl-j58"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="793"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pbe-J2-k3f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FnI-hu-Z4g" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NVl-lD-UTv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="44K-aB-kmh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhP-WE-UUY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="793"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="增加" width="37" height="37"/>
+    </resources>
+</document>

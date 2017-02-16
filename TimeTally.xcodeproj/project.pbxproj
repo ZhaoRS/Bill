@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52AEE2F1E2795C0005FB11D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE2E1E2795C0005FB11D /* main.m */; };
+		E52AEE321E2795C0005FB11D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE311E2795C0005FB11D /* AppDelegate.m */; };
+		E52AEE381E2795C0005FB11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52AEE361E2795C0005FB11D /* Main.storyboard */; };
+		E52AEE3B1E2795C0005FB11D /* TimeTally.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE391E2795C0005FB11D /* TimeTally.xcdatamodeld */; };
+		E52AEE3D1E2795C0005FB11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52AEE3C1E2795C0005FB11D /* Assets.xcassets */; };
+		E52AEE401E2795C0005FB11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52AEE3E1E2795C0005FB11D /* LaunchScreen.storyboard */; };
+		E52AEE4B1E2795C0005FB11D /* TimeTallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE4A1E2795C0005FB11D /* TimeTallyTests.m */; };
+		E52AEE561E2795C0005FB11D /* TimeTallyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE551E2795C0005FB11D /* TimeTallyUITests.m */; };
+		E52AEE651E2795F4005FB11D /* CoreDataOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE641E2795F4005FB11D /* CoreDataOperations.m */; };
+		E52AEE701E27A508005FB11D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE6F1E27A508005FB11D /* ViewController.m */; };
+		E52AEE731E27A52B005FB11D /* TimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E52AEE721E27A52B005FB11D /* TimeLineModel.m */; };
+		E58C62281E2DEB2F00742287 /* TallyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C62271E2DEB2F00742287 /* TallyListView.m */; };
+		E58C622C1E2DED5100742287 /* TallyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C622A1E2DED5100742287 /* TallyListCell.m */; };
+		E58C622D1E2DED5100742287 /* TallyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58C622B1E2DED5100742287 /* TallyListCell.xib */; };
+		E58FDA391E2F1DE500790ED5 /* TallyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FDA381E2F1DE500790ED5 /* TallyList.plist */; };
+		E59232B31E29D25900EE4739 /* TimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = E59232B21E29D25900EE4739 /* TimeLineView.m */; };
+		E59232B61E2A2BFB00EE4739 /* AddTallyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E59232B51E2A2BFB00EE4739 /* AddTallyViewController.m */; };
+		E59232B91E2A2C8400EE4739 /* TallyListCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E59232B81E2A2C8400EE4739 /* TallyListCellModel.m */; };
+		E59232BC1E2A2E1E00EE4739 /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E59232BB1E2A2E1E00EE4739 /* CalculatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52AEE471E2795C0005FB11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52AEE221E2795C0005FB11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52AEE291E2795C0005FB11D;
+			remoteInfo = TimeTally;
+		};
+		E52AEE521E2795C0005FB11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52AEE221E2795C0005FB11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52AEE291E2795C0005FB11D;
+			remoteInfo = TimeTally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52AEE2A1E2795C0005FB11D /* TimeTally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AEE2E1E2795C0005FB11D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E52AEE301E2795C0005FB11D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E52AEE311E2795C0005FB11D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E52AEE371E2795C0005FB11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52AEE3A1E2795C0005FB11D /* TimeTally.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTally.xcdatamodel; sourceTree = "<group>"; };
+		E52AEE3C1E2795C0005FB11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52AEE3F1E2795C0005FB11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52AEE411E2795C0005FB11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52AEE461E2795C0005FB11D /* TimeTallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AEE4A1E2795C0005FB11D /* TimeTallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTallyTests.m; sourceTree = "<group>"; };
+		E52AEE4C1E2795C0005FB11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52AEE511E2795C0005FB11D /* TimeTallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AEE551E2795C0005FB11D /* TimeTallyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTallyUITests.m; sourceTree = "<group>"; };
+		E52AEE571E2795C0005FB11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52AEE631E2795F4005FB11D /* CoreDataOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataOperations.h; sourceTree = "<group>"; };
+		E52AEE641E2795F4005FB11D /* CoreDataOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataOperations.m; sourceTree = "<group>"; };
+		E52AEE6E1E27A508005FB11D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E52AEE6F1E27A508005FB11D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E52AEE711E27A52B005FB11D /* TimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineModel.h; sourceTree = "<group>"; };
+		E52AEE721E27A52B005FB11D /* TimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineModel.m; sourceTree = "<group>"; };
+		E58C62261E2DEB2F00742287 /* TallyListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallyListView.h; sourceTree = "<group>"; };
+		E58C62271E2DEB2F00742287 /* TallyListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallyListView.m; sourceTree = "<group>"; };
+		E58C62291E2DED5100742287 /* TallyListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallyListCell.h; sourceTree = "<group>"; };
+		E58C622A1E2DED5100742287 /* TallyListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallyListCell.m; sourceTree = "<group>"; };
+		E58C622B1E2DED5100742287 /* TallyListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallyListCell.xib; sourceTree = "<group>"; };
+		E58FDA381E2F1DE500790ED5 /* TallyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TallyList.plist; sourceTree = "<group>"; };
+		E59232B11E29D25900EE4739 /* TimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineView.h; sourceTree = "<group>"; };
+		E59232B21E29D25900EE4739 /* TimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineView.m; sourceTree = "<group>"; };
+		E59232B41E2A2BFB00EE4739 /* AddTallyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTallyViewController.h; sourceTree = "<group>"; };
+		E59232B51E2A2BFB00EE4739 /* AddTallyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTallyViewController.m; sourceTree = "<group>"; };
+		E59232B71E2A2C8400EE4739 /* TallyListCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallyListCellModel.h; sourceTree = "<group>"; };
+		E59232B81E2A2C8400EE4739 /* TallyListCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallyListCellModel.m; sourceTree = "<group>"; };
+		E59232BA1E2A2E1E00EE4739 /* CalculatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		E59232BB1E2A2E1E00EE4739 /* CalculatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52AEE271E2795C0005FB11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE431E2795C0005FB11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE4E1E2795C0005FB11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52AEE211E2795C0005FB11D = {
+			isa = PBXGroup;
+			children = (
+				E52AEE2C1E2795C0005FB11D /* TimeTally */,
+				E52AEE491E2795C0005FB11D /* TimeTallyTests */,
+				E52AEE541E2795C0005FB11D /* TimeTallyUITests */,
+				E52AEE2B1E2795C0005FB11D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52AEE2B1E2795C0005FB11D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE2A1E2795C0005FB11D /* TimeTally.app */,
+				E52AEE461E2795C0005FB11D /* TimeTallyTests.xctest */,
+				E52AEE511E2795C0005FB11D /* TimeTallyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52AEE2C1E2795C0005FB11D /* TimeTally */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE301E2795C0005FB11D /* AppDelegate.h */,
+				E52AEE311E2795C0005FB11D /* AppDelegate.m */,
+				E52AEE631E2795F4005FB11D /* CoreDataOperations.h */,
+				E52AEE641E2795F4005FB11D /* CoreDataOperations.m */,
+				E52AEE661E27A4A5005FB11D /* Home */,
+				E52AEE671E27A4B3005FB11D /* AddTally */,
+				E52AEE361E2795C0005FB11D /* Main.storyboard */,
+				E52AEE3C1E2795C0005FB11D /* Assets.xcassets */,
+				E52AEE3E1E2795C0005FB11D /* LaunchScreen.storyboard */,
+				E58FDA381E2F1DE500790ED5 /* TallyList.plist */,
+				E52AEE411E2795C0005FB11D /* Info.plist */,
+				E52AEE391E2795C0005FB11D /* TimeTally.xcdatamodeld */,
+				E52AEE2D1E2795C0005FB11D /* Supporting Files */,
+			);
+			path = TimeTally;
+			sourceTree = "<group>";
+		};
+		E52AEE2D1E2795C0005FB11D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE2E1E2795C0005FB11D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E52AEE491E2795C0005FB11D /* TimeTallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE4A1E2795C0005FB11D /* TimeTallyTests.m */,
+				E52AEE4C1E2795C0005FB11D /* Info.plist */,
+			);
+			path = TimeTallyTests;
+			sourceTree = "<group>";
+		};
+		E52AEE541E2795C0005FB11D /* TimeTallyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE551E2795C0005FB11D /* TimeTallyUITests.m */,
+				E52AEE571E2795C0005FB11D /* Info.plist */,
+			);
+			path = TimeTallyUITests;
+			sourceTree = "<group>";
+		};
+		E52AEE661E27A4A5005FB11D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE6C1E27A4D5005FB11D /* Model */,
+				E52AEE6A1E27A4C9005FB11D /* View */,
+				E52AEE681E27A4BE005FB11D /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E52AEE671E27A4B3005FB11D /* AddTally */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE6D1E27A4D8005FB11D /* Model */,
+				E52AEE6B1E27A4CD005FB11D /* View */,
+				E52AEE691E27A4C1005FB11D /* Controller */,
+			);
+			path = AddTally;
+			sourceTree = "<group>";
+		};
+		E52AEE681E27A4BE005FB11D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE6E1E27A508005FB11D /* ViewController.h */,
+				E52AEE6F1E27A508005FB11D /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E52AEE691E27A4C1005FB11D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E59232B41E2A2BFB00EE4739 /* AddTallyViewController.h */,
+				E59232B51E2A2BFB00EE4739 /* AddTallyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E52AEE6A1E27A4C9005FB11D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E59232B11E29D25900EE4739 /* TimeLineView.h */,
+				E59232B21E29D25900EE4739 /* TimeLineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E52AEE6B1E27A4CD005FB11D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E59232BA1E2A2E1E00EE4739 /* CalculatorView.h */,
+				E59232BB1E2A2E1E00EE4739 /* CalculatorView.m */,
+				E58C62261E2DEB2F00742287 /* TallyListView.h */,
+				E58C62271E2DEB2F00742287 /* TallyListView.m */,
+				E58C62291E2DED5100742287 /* TallyListCell.h */,
+				E58C622A1E2DED5100742287 /* TallyListCell.m */,
+				E58C622B1E2DED5100742287 /* TallyListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E52AEE6C1E27A4D5005FB11D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E52AEE711E27A52B005FB11D /* TimeLineModel.h */,
+				E52AEE721E27A52B005FB11D /* TimeLineModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E52AEE6D1E27A4D8005FB11D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E59232B71E2A2C8400EE4739 /* TallyListCellModel.h */,
+				E59232B81E2A2C8400EE4739 /* TallyListCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52AEE291E2795C0005FB11D /* TimeTally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52AEE5A1E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTally" */;
+			buildPhases = (
+				E52AEE261E2795C0005FB11D /* Sources */,
+				E52AEE271E2795C0005FB11D /* Frameworks */,
+				E52AEE281E2795C0005FB11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTally;
+			productName = TimeTally;
+			productReference = E52AEE2A1E2795C0005FB11D /* TimeTally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52AEE451E2795C0005FB11D /* TimeTallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52AEE5D1E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTallyTests" */;
+			buildPhases = (
+				E52AEE421E2795C0005FB11D /* Sources */,
+				E52AEE431E2795C0005FB11D /* Frameworks */,
+				E52AEE441E2795C0005FB11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52AEE481E2795C0005FB11D /* PBXTargetDependency */,
+			);
+			name = TimeTallyTests;
+			productName = TimeTallyTests;
+			productReference = E52AEE461E2795C0005FB11D /* TimeTallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52AEE501E2795C0005FB11D /* TimeTallyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52AEE601E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTallyUITests" */;
+			buildPhases = (
+				E52AEE4D1E2795C0005FB11D /* Sources */,
+				E52AEE4E1E2795C0005FB11D /* Frameworks */,
+				E52AEE4F1E2795C0005FB11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52AEE531E2795C0005FB11D /* PBXTargetDependency */,
+			);
+			name = TimeTallyUITests;
+			productName = TimeTallyUITests;
+			productReference = E52AEE511E2795C0005FB11D /* TimeTallyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52AEE221E2795C0005FB11D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "赵瑞生";
+				TargetAttributes = {
+					E52AEE291E2795C0005FB11D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E52AEE451E2795C0005FB11D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52AEE291E2795C0005FB11D;
+					};
+					E52AEE501E2795C0005FB11D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E52AEE291E2795C0005FB11D;
+					};
+				};
+			};
+			buildConfigurationList = E52AEE251E2795C0005FB11D /* Build configuration list for PBXProject "TimeTally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52AEE211E2795C0005FB11D;
+			productRefGroup = E52AEE2B1E2795C0005FB11D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52AEE291E2795C0005FB11D /* TimeTally */,
+				E52AEE451E2795C0005FB11D /* TimeTallyTests */,
+				E52AEE501E2795C0005FB11D /* TimeTallyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52AEE281E2795C0005FB11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58C622D1E2DED5100742287 /* TallyListCell.xib in Resources */,
+				E58FDA391E2F1DE500790ED5 /* TallyList.plist in Resources */,
+				E52AEE401E2795C0005FB11D /* LaunchScreen.storyboard in Resources */,
+				E52AEE3D1E2795C0005FB11D /* Assets.xcassets in Resources */,
+				E52AEE381E2795C0005FB11D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE441E2795C0005FB11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE4F1E2795C0005FB11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52AEE261E2795C0005FB11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58C622C1E2DED5100742287 /* TallyListCell.m in Sources */,
+				E52AEE731E27A52B005FB11D /* TimeLineModel.m in Sources */,
+				E59232B61E2A2BFB00EE4739 /* AddTallyViewController.m in Sources */,
+				E52AEE321E2795C0005FB11D /* AppDelegate.m in Sources */,
+				E59232B31E29D25900EE4739 /* TimeLineView.m in Sources */,
+				E59232BC1E2A2E1E00EE4739 /* CalculatorView.m in Sources */,
+				E58C62281E2DEB2F00742287 /* TallyListView.m in Sources */,
+				E52AEE2F1E2795C0005FB11D /* main.m in Sources */,
+				E52AEE651E2795F4005FB11D /* CoreDataOperations.m in Sources */,
+				E52AEE3B1E2795C0005FB11D /* TimeTally.xcdatamodeld in Sources */,
+				E59232B91E2A2C8400EE4739 /* TallyListCellModel.m in Sources */,
+				E52AEE701E27A508005FB11D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE421E2795C0005FB11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52AEE4B1E2795C0005FB11D /* TimeTallyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52AEE4D1E2795C0005FB11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52AEE561E2795C0005FB11D /* TimeTallyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52AEE481E2795C0005FB11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52AEE291E2795C0005FB11D /* TimeTally */;
+			targetProxy = E52AEE471E2795C0005FB11D /* PBXContainerItemProxy */;
+		};
+		E52AEE531E2795C0005FB11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52AEE291E2795C0005FB11D /* TimeTally */;
+			targetProxy = E52AEE521E2795C0005FB11D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52AEE361E2795C0005FB11D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52AEE371E2795C0005FB11D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E52AEE3E1E2795C0005FB11D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52AEE3F1E2795C0005FB11D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52AEE581E2795C0005FB11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52AEE591E2795C0005FB11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52AEE5B1E2795C0005FB11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeTally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E52AEE5C1E2795C0005FB11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeTally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E52AEE5E1E2795C0005FB11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeTallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTally.app/TimeTally";
+			};
+			name = Debug;
+		};
+		E52AEE5F1E2795C0005FB11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeTallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTally.app/TimeTally";
+			};
+			name = Release;
+		};
+		E52AEE611E2795C0005FB11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeTallyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeTally;
+			};
+			name = Debug;
+		};
+		E52AEE621E2795C0005FB11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeTallyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.TimeTallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeTally;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52AEE251E2795C0005FB11D /* Build configuration list for PBXProject "TimeTally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52AEE581E2795C0005FB11D /* Debug */,
+				E52AEE591E2795C0005FB11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52AEE5A1E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52AEE5B1E2795C0005FB11D /* Debug */,
+				E52AEE5C1E2795C0005FB11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52AEE5D1E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52AEE5E1E2795C0005FB11D /* Debug */,
+				E52AEE5F1E2795C0005FB11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52AEE601E2795C0005FB11D /* Build configuration list for PBXNativeTarget "TimeTallyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52AEE611E2795C0005FB11D /* Debug */,
+				E52AEE621E2795C0005FB11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E52AEE391E2795C0005FB11D /* TimeTally.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E52AEE3A1E2795C0005FB11D /* TimeTally.xcdatamodel */,
+			);
+			currentVersion = E52AEE3A1E2795C0005FB11D /* TimeTally.xcdatamodel */;
+			path = TimeTally.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E52AEE221E2795C0005FB11D /* Project object */;
+}

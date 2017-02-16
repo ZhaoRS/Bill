@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TallyListCell">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="157"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jDW-Ae-Wr8">
+                        <rect key="frame" x="10" y="10" width="110" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="jDW-Ae-Wr8" secondAttribute="height" multiplier="1:1" id="5xF-HC-Otc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va7-mh-jCl">
+                        <rect key="frame" x="10" y="125" width="110" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jDW-Ae-Wr8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="6wS-ci-C1N"/>
+                <constraint firstAttribute="trailing" secondItem="va7-mh-jCl" secondAttribute="trailing" constant="10" id="HS5-WS-NKT"/>
+                <constraint firstAttribute="trailing" secondItem="jDW-Ae-Wr8" secondAttribute="trailing" constant="10" id="UlF-1M-OQv"/>
+                <constraint firstItem="va7-mh-jCl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="a0I-m3-7tW"/>
+                <constraint firstItem="va7-mh-jCl" firstAttribute="top" secondItem="jDW-Ae-Wr8" secondAttribute="bottom" constant="5" id="dyw-6s-zsR"/>
+                <constraint firstItem="jDW-Ae-Wr8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="fys-Tw-5P5"/>
+                <constraint firstAttribute="bottom" secondItem="va7-mh-jCl" secondAttribute="bottom" id="gyr-Ph-FTf"/>
+                <constraint firstItem="jDW-Ae-Wr8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="hic-ol-EI6"/>
+                <constraint firstItem="va7-mh-jCl" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="jii-FL-ZMH"/>
+            </constraints>
+            <size key="customSize" width="130" height="157"/>
+            <connections>
+                <outlet property="imageLab" destination="va7-mh-jCl" id="5cn-UP-YNe"/>
+                <outlet property="imageView" destination="jDW-Ae-Wr8" id="Ql5-et-HNA"/>
+            </connections>
+            <point key="canvasLocation" x="-48" y="94.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
